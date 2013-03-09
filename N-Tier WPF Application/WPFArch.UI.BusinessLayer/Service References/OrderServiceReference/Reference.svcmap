@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6b495df3-fc58-4389-8ee2-6eaa717df69b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://msvc.ziyasal.com/OrderService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="OrderService.disco" MetadataType="Disco" ID="b42a36e9-0018-445b-9010-9c4abdc37bd4" SourceId="1" SourceUrl="http://msvc.ziyasal.com/OrderService.svc?disco" />
+    <MetadataFile FileName="OrderService.xsd" MetadataType="Schema" ID="f062f124-16d2-48f4-aa9d-52271025180c" SourceId="1" SourceUrl="http://msvc.ziyasal.com/OrderService.svc?xsd=xsd1" />
+    <MetadataFile FileName="OrderService1.xsd" MetadataType="Schema" ID="d3a19e1c-441a-44a2-ab63-e2f8dfa07971" SourceId="1" SourceUrl="http://msvc.ziyasal.com/OrderService.svc?xsd=xsd0" />
+    <MetadataFile FileName="OrderService2.xsd" MetadataType="Schema" ID="d81cff58-8b37-4eba-94cf-2ee3d93cdc11" SourceId="1" SourceUrl="http://msvc.ziyasal.com/OrderService.svc?xsd=xsd3" />
+    <MetadataFile FileName="OrderService3.xsd" MetadataType="Schema" ID="c7fa7346-cf7c-4ba8-89cf-99515ea8f270" SourceId="1" SourceUrl="http://msvc.ziyasal.com/OrderService.svc?xsd=xsd2" />
+    <MetadataFile FileName="OrderService.wsdl" MetadataType="Wsdl" ID="79c720f9-07aa-4a3e-b57e-8c3c900262cf" SourceId="1" SourceUrl="http://msvc.ziyasal.com/OrderService.svc?wsdl" />
+    <MetadataFile FileName="OrderService4.xsd" MetadataType="Schema" ID="fcd624cb-74cc-406f-99cf-4dc688068665" SourceId="1" SourceUrl="http://msvc.ziyasal.com/OrderService.svc?xsd=xsd4" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

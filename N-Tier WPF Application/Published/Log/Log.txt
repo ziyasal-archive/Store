@@ -1,0 +1,39 @@
+[Header]\r\n2012-07-10 21:13:10,585 [1] INFO  WPFArch.BusinessLayer.Common.CommonLogManager Application Started
+2012-07-10 21:14:44,713 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager START--> type :CustomerManager, method :GetCustomers
+2012-07-10 21:14:47,762 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager END--> type :CustomerManager, method :GetCustomers
+2012-07-10 21:14:54,073 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager START--> type :CustomerManager, method :GetOrders
+2012-07-10 21:14:54,767 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager END--> type :CustomerManager, method :GetOrders
+2012-07-10 21:18:29,314 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager START--> type :CustomerManager, method :GetCustomers
+2012-07-10 21:18:29,317 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager END--> type :CustomerManager, method :GetCustomers
+2012-07-10 21:18:31,350 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager START--> type :CustomerManager, method :GetOrders
+2012-07-10 21:18:31,588 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager END--> type :CustomerManager, method :GetOrders
+2012-07-10 21:20:04,691 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager START--> type :CustomerManager, method :GetCustomers
+2012-07-10 21:20:04,693 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager END--> type :CustomerManager, method :GetCustomers
+2012-07-10 21:20:06,659 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager START--> type :CustomerManager, method :GetOrders
+2012-07-10 21:20:06,678 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager END--> type :CustomerManager, method :GetOrders
+2012-07-10 21:20:18,932 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager START :Order Update op started Type: OrderManager, Method:Update
+2012-07-10 21:20:19,438 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager END :Order Update op ended Type: OrderManager, Method:Update , OrderID :6
+2012-07-10 21:20:22,078 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager START--> type :CustomerManager, method :GetOrders
+2012-07-10 21:20:22,122 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager END--> type :CustomerManager, method :GetOrders
+2012-07-10 21:20:23,170 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager START--> type :CustomerManager, method :GetOrders
+2012-07-10 21:20:23,175 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager END--> type :CustomerManager, method :GetOrders
+2012-07-10 21:20:26,422 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager START--> type :CustomerManager, method :GetOrders
+2012-07-10 21:20:26,427 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager END--> type :CustomerManager, method :GetOrders
+2012-07-10 21:20:27,048 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager START--> type :CustomerManager, method :GetOrders
+2012-07-10 21:20:27,053 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager END--> type :CustomerManager, method :GetOrders
+2012-07-10 21:20:29,119 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager START--> type :CustomerManager, method :GetOrders
+2012-07-10 21:20:29,125 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager END--> type :CustomerManager, method :GetOrders
+2012-07-10 21:20:30,673 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager START--> type :CustomerManager, method :GetOrders
+2012-07-10 21:20:30,678 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager END--> type :CustomerManager, method :GetOrders
+2012-07-10 21:20:31,463 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager START--> type :CustomerManager, method :GetOrders
+2012-07-10 21:20:31,468 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager END--> type :CustomerManager, method :GetOrders
+2012-07-10 21:21:22,828 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager START--> type :CustomerManager, method :GetCustomers
+2012-07-10 21:21:22,830 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager END--> type :CustomerManager, method :GetCustomers
+2012-07-10 21:21:29,649 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager START--> type :CustomerManager, method :GetOrders
+2012-07-10 21:21:29,657 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager END--> type :CustomerManager, method :GetOrders
+2012-07-10 21:21:31,978 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager START--> type :CustomerManager, method :GetOrders
+2012-07-10 21:21:31,983 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager END--> type :CustomerManager, method :GetOrders
+2012-07-10 21:21:34,274 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager START--> type :CustomerManager, method :GetOrders
+2012-07-10 21:21:34,279 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager END--> type :CustomerManager, method :GetOrders
+2012-07-10 21:21:35,656 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager START--> type :CustomerManager, method :GetOrders
+2012-07-10 21:21:35,661 [9] INFO  WPFArch.BusinessLayer.Common.CommonLogManager END--> type :CustomerManager, method :GetOrders

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="04377de2-4c44-4c1b-92fd-5fb3c2bd26dc" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://msvc.ziyasal.com/CustomerService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CustomerService.wsdl" MetadataType="Wsdl" ID="49939029-34e5-4be3-9b0d-3b1fbe7cd9b1" SourceId="1" SourceUrl="http://msvc.ziyasal.com/CustomerService.svc?wsdl" />
+    <MetadataFile FileName="CustomerService.xsd" MetadataType="Schema" ID="86646e28-083d-45bc-929b-f425ef65a556" SourceId="1" SourceUrl="http://msvc.ziyasal.com/CustomerService.svc?xsd=xsd1" />
+    <MetadataFile FileName="CustomerService1.xsd" MetadataType="Schema" ID="d89c0f18-02ee-4951-b45f-6edfae597a53" SourceId="1" SourceUrl="http://msvc.ziyasal.com/CustomerService.svc?xsd=xsd3" />
+    <MetadataFile FileName="CustomerService2.xsd" MetadataType="Schema" ID="87795fa9-db6b-46fc-b981-27a219d87f5c" SourceId="1" SourceUrl="http://msvc.ziyasal.com/CustomerService.svc?xsd=xsd2" />
+    <MetadataFile FileName="CustomerService.disco" MetadataType="Disco" ID="d67320c2-3331-4a45-ad4d-d1529e32d482" SourceId="1" SourceUrl="http://msvc.ziyasal.com/CustomerService.svc?disco" />
+    <MetadataFile FileName="CustomerService3.xsd" MetadataType="Schema" ID="c29f7c45-4bed-4fad-b2a4-eba397c2bc42" SourceId="1" SourceUrl="http://msvc.ziyasal.com/CustomerService.svc?xsd=xsd4" />
+    <MetadataFile FileName="CustomerService4.xsd" MetadataType="Schema" ID="756a849e-df5e-48bd-834b-fb157cde47d9" SourceId="1" SourceUrl="http://msvc.ziyasal.com/CustomerService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

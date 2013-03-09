@@ -1,0 +1,27 @@
+<strong> Used Technologies / Tools <strong>
+- Data Layer
+	- <strong>ADO.Net EntityFramework 5.0 RC</strong> Code First
+	- Generic Repository Pattern and UnitOfWork
+	- Fluent Mapping, Model Builder Impl
+	- Cross Aplication Data Context Management
+	- Sample data creating
+- WCF Business Layer
+	- Autofac
+	- AOP with <strong>AOPify</strong> framework
+	- <strong>log4Net</strong> for logging
+- WCF Host Layer
+	- <strong>Autofac.Wcf</strong> (<strong>WCF</strong> implementation)
+	- <strong>Elmah</strong> Exception Handling Engine for WCF Service
+		<br/><strong>NOTE :</strong> www.yourservicedomain.com/elmah.axd for access service errors.
+- WPF Business Layer
+	- Asyc Service Call Management Impl,
+	- <strong>log4net</strong> for logging
+	- <strong>Microsoft.Practices.Unity</strong> for DI
+	- Service Locator Impl.
+	- NotifyPropertyChanged with Expressions
+- WPF UI
+	- <strong>MVVM</strong> Impl.
+	- Component Model Validation Impl.
+	- Themable View Basics..
+	- Multiple Views with master detail
+	- Data visualization (charting)

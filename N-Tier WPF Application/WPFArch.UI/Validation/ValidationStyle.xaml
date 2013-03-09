@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <Style x:Key="valStyle" TargetType="TextBox">
+        <Setter Property="Validation.ErrorTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="*" Foreground="Red"/>
+                            <AdornedElementPlaceholder/>
+                        </StackPanel>
+                        <TextBlock Text="{Binding ErrorContent}" Foreground="Red" Margin="15 0 0 0"/>
+                    </StackPanel>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>         
+    </Style>
+</ResourceDictionary>
