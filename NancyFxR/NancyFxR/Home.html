@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Content/Scripts/jquery-1.9.1.js" type="text/javascript"></script>
+    <script src="Content/Scripts/jquery.signalR-1.0.0.js" type="text/javascript"></script>
+    <script src="signalr/hubs" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var nancyHub = $.connection.nancyHub;
+            $.extend(nancyHub.client, {
+                sayHello: function (entity) {
+                    alert(entity);
+                }
+            });
+            $.connection.hub.connectionSlow(function () {
+                console.log("Alert: connection slow");
+            });
+            $.connection.hub.start().done(function () {
+                alert("Hub started");
+            });
+
+            $("#btnPush").click(function () {
+                $.getJSON("/push/" + $("#txtMessage").val(), null, function (data) {
+                    console.log(data);
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <input type="text" id="txtMessage" />
+    <br />
+    <input type="button" id="btnPush" value="Send" />
+</body>
+</html>

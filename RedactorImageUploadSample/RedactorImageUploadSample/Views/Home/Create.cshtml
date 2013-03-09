@@ -1,0 +1,28 @@
+﻿@model RedactorImageUploadTest.Models.TestModel
+
+@{
+    ViewBag.Title = "CreateTest Model";
+}
+
+@Html.Partial("_CreatePartial")
+
+@section scripts
+{<script src="~/Scripts/jquery-1.8.2.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <link rel="stylesheet" href="~/Content/redactor/redactor.css" />
+    <script src="~/Scripts/redactor/redactor.js"></script>
+    <script src="~/Scripts/redactor/fullscreen.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(
+            function () {
+                $('#Content').redactor({
+                    plugins: ['fullscreen'],
+                    imageUpload: '@Url.Action("Upload")',
+                    imageGetJson: '@Url.Action("LoadImages")'
+                });
+            }
+        );
+    </script>
+}
