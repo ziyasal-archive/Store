@@ -1,0 +1,31 @@
+﻿<html>
+<head>
+    <title>Service Stack Logger</title>
+
+</head>
+<body>
+    <ul id="messages"></ul>
+</body>
+<script src="Scripts/jquery-1.9.1.js"></script>
+<script src="Scripts/jquery.signalR-1.0.1.js"></script>
+<script type="text/javascript" src="signalr/hubs"></script>
+
+<script type="text/javascript">
+    $(function () {
+        var hub = $.connection.servicelog;
+        hub.client.log = function (data) {
+            $('#messages').prepend('<li>' + data.Time + " - " + data.Data + '</li>');
+        };
+
+        hub.client.logMessage = function (data) {
+            $('#messages').prepend('<li>' + data.Time + " - " + data.Data.Id + " " + data.Data.Name + '</li>');
+        };
+
+        hub.client.logArray = function (data) {
+            $('#messages').prepend('<li>' + data.Time + " - " + data.Data + '</li>');
+        };
+
+        $.connection.hub.start();
+    });
+</script>
+</html>
