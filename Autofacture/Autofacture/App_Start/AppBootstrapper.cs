@@ -1,6 +1,6 @@
 ﻿using Autofac;
 
-namespace Autofacture {
+namespace Autofacture.App_Start {
     public class AppBootstrapper {
         public static IContainer Run() {
             IContainer container = AutofacBootstrapper.Run();

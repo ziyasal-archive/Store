@@ -53,12 +53,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AppBootstrapper.cs" />
-    <Compile Include="AutofacBootstrapper.cs" />
-    <Compile Include="AutoMapperBootstrapper.cs" />
-    <Compile Include="Order.cs" />
-    <Compile Include="OrderProfile.cs" />
-    <Compile Include="OrderViewModel.cs" />
+    <Compile Include="App_Start\AppBootstrapper.cs" />
+    <Compile Include="App_Start\AutofacBootstrapper.cs" />
+    <Compile Include="App_Start\AutoMapperBootstrapper.cs" />
+    <Compile Include="SampleBusiness\DIConfiguration\AutoMapperModule.cs" />
+    <Compile Include="SampleBusiness\DIConfiguration\BusinessLayerModule.cs" />
+    <Compile Include="SampleBusiness\IProductService.cs" />
+    <Compile Include="SampleBusiness\Domain\Product.cs" />
+    <Compile Include="SampleBusiness\MappingProfiles\ProductMapperProfile.cs" />
+    <Compile Include="SampleBusiness\ProductService.cs" />
+    <Compile Include="SampleBusiness\ViewModel\ProductViewModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -66,6 +70,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

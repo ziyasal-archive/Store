@@ -2,7 +2,7 @@
 using Autofac;
 using AutoMapper;
 
-namespace Autofacture {
+namespace Autofacture.App_Start {
     public class AutoMapperBootstrapper {
         public static void Run(IContainer container) {
             // AutoMapper initialization
@@ -10,6 +10,8 @@ namespace Autofacture {
                 x.ConstructServicesUsing(container.Resolve);
                 container.Resolve<IEnumerable<Profile>>().Each(x.AddProfile);
             });
+
+            Mapper.AssertConfigurationIsValid();
         }
     }
 }

@@ -1,7 +1,8 @@
 ﻿using System;
 using Autofac;
-using AutoMapper;
-using Ploeh.AutoFixture;
+using Autofacture.App_Start;
+using Autofacture.SampleBusiness;
+using Autofacture.SampleBusiness.ViewModel;
 
 namespace Autofacture {
     public class Program {
@@ -9,10 +10,10 @@ namespace Autofacture {
         static void Main() {
 
             IContainer container = AppBootstrapper.Run();
-            IMappingEngine mappingEngine = container.Resolve<IMappingEngine>();
-            IFixture fixture = new Fixture();
-            OrderViewModel orderViewModel = mappingEngine.Map<Order, OrderViewModel>(fixture.Create<Order>());
-            Console.WriteLine(orderViewModel.Quantity);
+            IProductService productService = container.Resolve<IProductService>();
+            ProductViewModel productViewModel = productService.GetProduct();
+
+            Console.WriteLine("Product Id:{0}, Name:{1}", productViewModel.Id, productViewModel.Name);
 
             Console.ReadKey();
         }
