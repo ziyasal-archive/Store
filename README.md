@@ -2,7 +2,7 @@ Store
 =====
 
 Personal code samples repository
-
+* Autofac & AutoMapper Best Practices sample
 * ServiceStack & SignalR sample
 * ServiceStack & MonoTouch sample
 * NancyFx & SignalR sample
