@@ -2,10 +2,10 @@ Store
 =====
 
 Personal code samples repository
-* Autofac & FluentValidation Best Practices sample
-* Autofac & AutoMapper Best Practices sample
+* Autofac & FluentValidation Practices
+* Autofac & AutoMapper Practices
 * ServiceStack & SignalR sample
 * ServiceStack & MonoTouch sample
 * NancyFx & SignalR sample
-* WPF N-Tier applicaiton sample
+* WPF N-Tier application sample
 * Redactor WYSIWYG editor & Asp.NET MVC sample
