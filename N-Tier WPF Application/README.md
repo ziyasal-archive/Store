@@ -1,9 +1,8 @@
 <strong> Used Technologies / Tools <strong>
 - Data Layer
 	- <strong>ADO.Net EntityFramework 5.0 RC</strong> Code First
-	- Generic Repository Pattern and UnitOfWork
+	- Repository Pattern and UnitOfWork
 	- Fluent Mapping, Model Builder Impl
-	- Cross Aplication Data Context Management
 	- Sample data creating
 - WCF Business Layer
 	- Autofac
