@@ -24,3 +24,5 @@
 	- Themable View Basics..
 	- Multiple Views with master detail
 	- Data visualization (charting)
+
+**TODO: Update WPF UI project to use Caliburn.Micro**
