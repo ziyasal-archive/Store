@@ -6,7 +6,6 @@
 	- Sample data creating
 - WCF Business Layer
 	- Autofac
-	- AOP with <strong>AOPify</strong> framework
 	- <strong>log4Net</strong> for logging
 - WCF Host Layer
 	- <strong>Autofac.Wcf</strong> (<strong>WCF</strong> implementation)
@@ -25,5 +24,5 @@
 	- Multiple Views with master detail
 	- Data visualization (charting)
 
-**TODO: Update WPF UI project to use Caliburn.Micro**
-**TODO: Update AOP library to Aspector**
+**TODO: Update WPF UI project to use Caliburn.Micro**<br/>
+**TODO: Update use Aspector for AOP**
