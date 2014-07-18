@@ -25,4 +25,4 @@
 	- Data visualization (charting)
 
 **TODO: Update WPF UI project to use Caliburn.Micro**<br/>
-**TODO: Update use Aspector for AOP**
+**TODO: Use Aspector for AOP**
