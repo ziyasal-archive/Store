@@ -1,2 +1,0 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" Service="WPFArch.WCF.ServiceHost.OrderService, WPFArch.WCF.ServiceHost"
-    CodeBehind="OrderService.svc.cs" Factory="Autofac.Integration.Wcf.AutofacServiceHostFactory, Autofac.Integration.Wcf" %>
